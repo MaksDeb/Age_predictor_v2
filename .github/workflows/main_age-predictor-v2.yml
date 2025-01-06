@@ -66,4 +66,4 @@ jobs:
         with:
           app-name: 'age-predictor-v2'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_1600AF60C776472E84E1AD51F89B689F }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_D2CB055271DE4657B2EAE78777FFC67D }}
