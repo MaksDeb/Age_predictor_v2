@@ -6,9 +6,9 @@ import cv2
 import numpy as np
 import streamlit as st
 from PIL import Image
-from keras.losses import MeanAbsoluteError
-from keras.models import load_model
-from keras.utils import img_to_array
+from keras.src.losses import MeanAbsoluteError
+from keras.api.models import load_model
+from keras.src.utils import img_to_array
 
 MODEL_PATH = '..//trained_model_30.h5'
 model = load_model(MODEL_PATH, custom_objects={"mae": MeanAbsoluteError})
